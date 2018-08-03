@@ -1,0 +1,24 @@
+{
+  "name": "thundr",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "electron": "^1.7.10",
+    "lifx-http-api": "^1.0.3",
+    "material-ui": "^1.0.0-beta.27",
+    "node-lifx-lan": "^0.0.1",
+    "react": "^16.2.0",
+    "react-cookie": "^2.1.2",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "react-toastify": "^3.2.1",
+    "rodal": "^1.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "yarn run build && surge -p build -d thundr.io"
+  }
+}
