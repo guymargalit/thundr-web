@@ -1,15 +1,14 @@
-<h1 align="center">thundr</h1>
+# Thundr for Web
 
-<p align="center"><img width="200" alt="three-js starter" src="http://thundr.io/static/media/logo.0d522fd0.svg"></p>
+### Table of Contents
+- [Introduction](#introduction)
 
-<p align="center"><b>Connect musical instruments to Wi-Fi enabled LED smart lights.</b></p>
+## Introduction
 
-Initially, this application was an attempt at using the LIFX API to create light shows. A rewrite is essential as it used the HTTP API and was too slow. Therefore, the application will now be written in Python through LAN and will support MIDI instruments.
+Thundr is an app that lets you visualize your Spotify music with LIFX Wi-Fi LED lights. 
 
-The previous code is still available in the website folder.
+A Spotify account is required along with at least one LIFX Wi-Fi LED light. Thundr will sync with the song currently playing and use Spotify's audio analysis to send different colors and effects to your lights. This project is a work in progress and is still being actively developed.
 
-TODO
+This repository is the website for Thundr and is built in React.
 
--   Change from HTTP request to LAN
--   Add support for ROLI Seaboard
--   Add keyboard support
+
