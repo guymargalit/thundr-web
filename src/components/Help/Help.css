@@ -1,0 +1,25 @@
+.Help {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Help-container {
+	margin: 3em 1em 1em 1em;
+	color: white;
+	max-width: 40em;
+	width: 100%;
+	text-align: center;
+}
+
+.Help-title {
+	font-size: 1.1em;
+	font-weight: 600;
+	margin: 0 0 1em 0;
+}
+
+.Help-desc {
+	text-align: left;
+	margin: 0 0 2em 0;
+	line-height: 1.5em;
+}
