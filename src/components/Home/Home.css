@@ -1,0 +1,178 @@
+.Home {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Home-logo {
+	width: 3.5em;
+}
+
+.Home-screenshot {
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 568px) {
+	.Home-screenshot {
+		width: 100%;
+		margin: auto;
+	}
+}
+
+.no-select {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.Social-image {
+	border: 0;
+	width: 30px;
+	height: 30px;
+	margin: 0 1em 0 1em;
+}
+
+.Home-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-weight: 600;
+	background: #fea909;
+	border-radius: 3em;
+	height: 3em;
+	font-size: 1.1em;
+	width: 18em;
+	margin: 0 0 1em 0;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.Home-button:hover {
+	cursor: pointer;
+	background: #ffc14e;
+}
+
+.Home-social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 2em 0;
+}
+
+.Home-download {
+	text-align: center;
+	color: #ccc;
+	font-size: 0.8em;
+	margin-bottom: 2em;
+}
+
+.Home-hyper {
+	color: #fea909;
+	text-decoration: none;
+}
+
+.Home-help {
+	display: flex;
+	font-size: 1.1em;
+	margin: 0 2em 0 0;
+	font-weight: 600;
+	color: white;
+}
+
+.Home-help:hover {
+	cursor: pointer;
+	color: #fea909;
+}
+
+.Home-header {
+	background-color: #000000;
+	display: flex;
+	height: 4.5em;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 0.9em;
+	color: white;
+	position: sticky;
+	top: 0;
+}
+
+.Home-headline {
+	color: white;
+	font-size: 3em;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: -2px;
+	margin: 2em 0 1em 0;
+}
+
+.Home-subtitle {
+	color: white;
+	margin: 0 0 2em 0;
+	font-size: 1.3em;
+	font-weight: 600;
+	text-align: center;
+}
+
+.Home-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 70em;
+	width: 100%;
+}
+
+.Home-title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0 0 0 1em;
+	color: white;
+}
+
+.Home-title:hover {
+	cursor: pointer;
+	color: #fea909;
+}
+
+.Home-body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.Home-logo {
+	width: 3.5em;
+}
+
+.Home-footer {
+	background: #000000;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	height: 5em;
+}
+
+p {
+	font-weight: 600;
+}
+
+h1 {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	letter-spacing: -2px;
+	font-size: 1.75em;
+	font-style: normal;
+}
